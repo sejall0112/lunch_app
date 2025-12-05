@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # optional: allows manual runs
+  workflow_dispatch:   # optional: allows manual run
 
 env:
   DOCKER_IMAGE: sejall0112/lunch_app  # replace with your Docker Hub username/repo
