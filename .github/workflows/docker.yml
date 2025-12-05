@@ -8,7 +8,7 @@ on:
   workflow_dispatch:   # Manual triggers
 
 env:
-  DOCKER_IMAGE: sejall0112/lunch_app # Replace with your Docker Hub username/repo
+  DOCKER_IMAGE: sejall0112/lunch_app 
 
 jobs:
   build_and_push:
